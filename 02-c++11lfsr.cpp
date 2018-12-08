@@ -11,8 +11,8 @@
 #define SEED        0xAB
 
 double g_acm = 0;
-std::vector<int> g_classes(64,0);
-std::vector<double> g_chiQuad(64,0.0);
+std::vector<int> g_classes(SIZE,0);
+std::vector<double> g_chiQuad(SIZE,0.0);
 
 void results() {
 
